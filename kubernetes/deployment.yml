@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: sampleapp
-          image: amitballalacr.azurecr.io/ballalamit/deploy-to-aks
+          image: amitballalacr.azurecr.io/ballalamit/deploy-to-aks:47
           ports:
             - containerPort: 80
 ---
